@@ -6,3 +6,6 @@ vendas_diarias_vendedores <- scan(n = 10)
 
 #Verificando os vendedores que atigiram a meta mínima de 20 vendas
 vendedores_que_atingiram_meta <- vendas_diarias_vendedores >= 20
+
+#Calcular quantos vendedores atingiram a meta:
+qtd_vendedores_que_atingiram_meta <- sum(vendedores_que_atingiram_meta)
