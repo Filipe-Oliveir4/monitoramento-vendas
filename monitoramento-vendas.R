@@ -9,3 +9,6 @@ vendedores_que_atingiram_meta <- vendas_diarias_vendedores >= 20
 
 #Calcular quantos vendedores atingiram a meta:
 qtd_vendedores_que_atingiram_meta <- sum(vendedores_que_atingiram_meta)
+
+#Substituir qualquer valor de vendas inferior a 15 por 15
+vendas_diarias_vendedores[vendas_diarias_vendedores < 15] <- 15
